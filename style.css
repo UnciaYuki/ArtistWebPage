@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+/* Ce que je vais utiliser quasiment */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Mona", sans-serif;
+}
+
+.flex {
+    display: flex; 
+    flex-wrap: wrap; 
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.borderR {
+    border-radius: 50%
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+.bgB {
+    background-color: #818D92;
+}
+
+.container  {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto; 
+}
+
+
+/* HEADER */
+header {
+    padding: 15px;
+}
+.navhd {
+    width: 50%;
+}
+
+.bg {
+    background-color: #586A6A;
+}
+
+.btn {
+    background-color: rgb(0, 0, 0);
+    border-radius:4px;
+    padding: 10px;
+    color: white;
+    display: inline-block; 
+    margin-top: 15px;
+}
+
+.img {
+    max-width: 10%;
+    height: auto;
+}
